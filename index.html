@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Mockjax Demo</title>
+	<link rel="stylesheet" href="assets/css/lib/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/theme.css">
+</head>
+<body>
+	<div class="container">
+
+		<!-- Header -->
+		<header>
+			<h1>ABC Healthcare</h1>
+			<h2>My Claims</h2>
+		</header>
+		<!-- end Header -->
+
+		<!-- Filter Buttons -->
+		<button class="btn btn-primary filter">Filter Out Dependents</button>
+		<button class="btn btn-primary filter--error">[Show 404 Error on POST]</button>
+		<!-- end Filter Buttons -->
+
+		<!-- Claims Table -->
+		<table id="claims-container" class="table table-striped">
+			<thead>
+				<th></th>
+				<th>Claim Number</th>
+				<th>Claimant</th>
+				<th>Description</th>
+			</thead>
+			<tbody></tbody> <!-- <tbody> populated on successful AJAX call -->
+		</table>
+		<!-- end Claims Table -->
+	</div>
+
+	<!-- JS Dependencies -->
+	<script type="text/javascript" src="assets/js/lib/jquery.1.9.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/lib/bootstrap.min.js"></script>
+
+	<!-- URL Routes -->
+	<script type="text/javascript" src="assets/js/routes.js"></script>
+
+	<!-- Mockjax Files -->
+	<script type="text/javascript" src="assets/js/lib/jquery.mockjax.js"></script>
+	<script type="text/javascript" src="assets/js/mock-responses.js"></script>
+
+	<!-- Page App -->
+	<script type="text/javascript" src="assets/js/demo.js"></script>
+</body>
+</html>

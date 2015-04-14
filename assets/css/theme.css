@@ -1,0 +1,19 @@
+/*
+ * THEME
+ */
+
+h2 {
+    margin-bottom: 50px;
+}
+
+.loader {
+    display: block;
+    margin: 10px auto 0;
+    width: 16px;
+    height: 16px;
+    background: url('../img/ajax-loader.gif') left top no-repeat;
+}
+
+.table th:nth-child(1) { width: 5%; }
+.table th:nth-child(2) { width: 15%; }
+.table th:nth-child(3) { width: 20%; }

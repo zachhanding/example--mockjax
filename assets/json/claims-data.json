@@ -1,0 +1,19 @@
+{
+    "claims": [
+        {
+            "claimNumber": "0123",
+            "claimant": "Bob (Primary Subscriber)",
+            "description": "You went to the doctor to drain the goiter on your neck."
+        },
+        {
+            "claimNumber": "0276",
+            "claimant": "Timmy",
+            "description": "Little Timmy broke his foot playing hopscotch."
+        },
+        {
+            "claimNumber": "3518",
+            "claimant": "Bob (Primary Subscriber)",
+            "description": "You had your tonsils put back in."
+        }
+    ]
+}
